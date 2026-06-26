@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>College Assignment Submission Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>College Assignment Submission Tracker</h2>
+
+    <input type="text" id="assignment" placeholder="Assignment Name">
+    <input type="date" id="duedate">
+    <button onclick="addAssignment()">Add Assignment</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Assignment</th>
+                <th>Due Date</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
